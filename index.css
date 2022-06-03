@@ -1,0 +1,86 @@
+*{
+    margin :0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#home{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;   
+    background: transparent;
+    
+}
+#canva-bg{
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+#canva-top{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+.intro{   
+    float: right;
+    position: absolute;    
+    color: #E94560;
+    width: 100%;
+    padding: 100px;
+    line-height: 1.5;    
+}
+.intro > h1{
+    position: absolute;
+    padding: 5px;
+    height: auto;
+    
+}
+.pic{
+    position: absolute;
+    right: 2%;
+    top: 0;
+    width : 350px;
+    height: 350px;
+    border-radius: 300px;
+    border-style: double;
+    border-width: 5px;
+    border-color: aliceblue;
+    background-color: rgb(26, 110, 184);
+    margin: 50px;
+    background-image: url(pixton-avatar-headshot.png) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+.br1{
+    background-color: aliceblue;
+    height: 30px;
+}
+.br2{
+    background-color: pink;
+    height: 900px;
+}
+.avatar{
+    background-image: url(pixton-avatar-full-body.png);
+    background-size: 100% 100%;
+    margin-right:10px ;
+    width: 400px;
+    float: right;
+    height: 800px;
+}
+/*
+background-color: pink;
+    
+*/
